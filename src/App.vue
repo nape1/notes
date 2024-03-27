@@ -1,5 +1,11 @@
+<script setup>
+import Sidebar from './components/Sidebar.vue'
+import LandingMenu from "./components/Landing.vue";
+</script>
 <template>
-  <h2>HelloWorld</h2>
-  <button>hi</button>
+  <div class="wrapper">
+    <Sidebar/>
+    <LandingMenu/>
+  </div>
 </template>
 
