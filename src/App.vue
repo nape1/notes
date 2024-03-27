@@ -4,8 +4,12 @@ import LandingMenu from "./components/Landing.vue";
 </script>
 <template>
   <div class="wrapper">
-    <Sidebar/>
     <LandingMenu/>
   </div>
 </template>
 
+<style scoped>
+.wrapper{
+  font-size: 1.4rem;
+}
+</style>

@@ -15,6 +15,13 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-size: 10px;
+
+  --text-color-medium:rgb(90, 90, 94);
+  --text-color-dark:rgb(37, 37, 37);
+  --bg-black: rgb(22, 22, 22);
+  --bg-black-l1: rgb(32, 32, 32);
+  --bg-light-green: #3f4644
+
 }
 *,::after, ::before{
   box-sizing: border-box;
@@ -43,7 +50,9 @@ button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
-
+#app{
+  height: 100vh;
+}
 
 @media (prefers-color-scheme: light) {
   :root {
